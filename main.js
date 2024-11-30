@@ -90,12 +90,12 @@ spotLight.position.set(5, 5, 5);
 let model = null;
 
 const gltfLoader1 = new GLTFLoader();
-gltfLoader1.load('activity2/asset/abandoned_house_gltf/scene.gltf', (gltfScene) => {
+gltfLoader1.load('asset/abandoned_house_gltf/scene.gltf', (gltfScene) => {
   scene.add(gltfScene.scene);
 });
 
 const gltfLoader2 = new GLTFLoader();
-gltfLoader2.load('activity2/asset/spacesuit/scene.gltf', (gltfScene) => {
+gltfLoader2.load('asset/spacesuit/scene.gltf', (gltfScene) => {
   model = gltfScene.scene;
   
   // Adjust the position (x, y, z)
